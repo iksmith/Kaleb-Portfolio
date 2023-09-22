@@ -14,11 +14,7 @@
     color: #212121;
 }
 
-.hero-container { 
-    margin-left: 200px;
-    margin-right: 200px;
-    height: 100vh;
-}
+
 
 
  nav, li, a {
@@ -29,8 +25,8 @@
 }
 
 header {
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 .navbar {
     display: flex;
@@ -61,6 +57,12 @@ header {
 .resume-btn:hover {
     color:#5ab9ea;
     border: solid #5ab9ea;
+}
+
+.hero-container { 
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 100vh;
 }
 
 .page-container {
