@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;900&display=swap');
+
+
+
+/* @media screen and (min-width: 768px) {
+    .main {
+        margin-top:20px;
+    }
+} */
+
+
+* {
+    font-family: Poppins, Roboto, Arial, Helvetica, sans-serif;
+    color: #212121;
+}
+
+/* html {
+    overflow-x: hidden;
+} */
+
+
+body {
+margin: auto;
+width: 50%;
+}
+
+
+
+.header {
+    /* box-sizing: border-box; */
+    /* display: flex; */
+    /* justify-content: space-between;
+    align-items: baseline;
+    flex-flow: column wrap; */
+}
+
+/* .name {
+    box-sizing: border-box;
+    padding-right: 60px;
+    line-height: 2.5rem;
+} */
+
+.headline, .intro {
+    box-sizing: border-box;
+    font-weight: 500;
+    display: block;
+    max-width: 22rem;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+button {
+    color: #212121;
+    font-size: .8rem;
+    font-weight: 500;
+    background-color: white;
+    border: solid .15rem #212121;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1rem;
+}
+
+.btn {
+    margin-right: 1.5rem;
+}
+
+.social {
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 20px;
+}
+
+.icon {
+    margin-right: 1rem;
+}
+
+.skill {
+    display: inline-flex;
+    margin-right: 1rem;
+}
+
+.say-hello {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-box {
+    box-sizing: border-box;
+    border: solid .1rem #212121;
+    height: 375px;
+    width: 250px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* .project-box:hover {
+
+} */
+
+
+
