@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;900&display=swap');
 
 
+
+@media screen and (min-width: 768px) {
+    .card {
+            font-size: 1rem;
+    }
+}
+
+
+
+
 * {
     font-family: Poppins, Roboto, Arial, Helvetica, sans-serif;
     color: #212121;
@@ -87,18 +97,24 @@ button {
     font-weight: bold;
 }
 
-.project-box {
+.card {
+    position: relative;
+    white-space: normal;
     box-sizing: border-box;
     border: solid .1rem #212121;
     height: 375px;
     width: 250px;
     border-radius: 4px;
     cursor: pointer;
+    transform: translate3d(0px, 0%, 0px);
+    z-index: 0;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-/* .project-box:hover {
-
-} */
-
+.card:hover{ 
+z-index: 1;
+}
 
 
