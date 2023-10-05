@@ -1,22 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;900&display=swap');
 
 
-
-/* @media screen and (min-width: 768px) {
-    .main {
-        margin-top:20px;
-    }
-} */
-
-
 * {
     font-family: Poppins, Roboto, Arial, Helvetica, sans-serif;
     color: #212121;
 }
-
-/* html {
-    overflow-x: hidden;
-} */
 
 
 body {
@@ -70,9 +58,12 @@ button {
     display: flex;
     justify-content: flex-start;
     margin-top: 1rem;
+    flex-wrap: wrap;
 }
 
 .btn {
+    margin-top: .8rem;
+    margin-bottom: .8rem;
     margin-right: 1.5rem;
 }
 
@@ -88,7 +79,7 @@ button {
 
 .skill {
     display: inline-flex;
-    margin-right: 1rem;
+    margin-right: .9rem;
 }
 
 .say-hello {
